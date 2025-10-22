@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Wed Oct 22 18:10:25 2025 as: /usr/lib/nmap/nmap --privileged -p- -T4 -oA recon/nmap-full 192.168.0.83
+Nmap scan report for 192.168.0.83
+Host is up (0.0098s latency).
+Not shown: 65533 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3000/tcp open  ppp
+
+# Nmap done at Wed Oct 22 18:11:54 2025 -- 1 IP address (1 host up) scanned in 89.45 seconds

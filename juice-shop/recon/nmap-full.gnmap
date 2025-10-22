@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Wed Oct 22 18:10:25 2025 as: /usr/lib/nmap/nmap --privileged -p- -T4 -oA recon/nmap-full 192.168.0.83
+Host: 192.168.0.83 ()	Status: Up
+Host: 192.168.0.83 ()	Ports: 22/open/tcp//ssh///, 3000/open/tcp//ppp///	Ignored State: filtered (65533)
+# Nmap done at Wed Oct 22 18:11:54 2025 -- 1 IP address (1 host up) scanned in 89.45 seconds

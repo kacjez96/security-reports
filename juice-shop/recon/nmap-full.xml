@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Wed Oct 22 18:10:25 2025 as: /usr/lib/nmap/nmap -&#45;privileged -p- -T4 -oA recon/nmap-full 192.168.0.83 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p- -T4 -oA recon/nmap-full 192.168.0.83" start="1761171025" startstr="Wed Oct 22 18:10:25 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.0.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1761171025" endtime="1761171114"><status state="up" reason="reset" reason_ttl="255"/>
+<address addr="192.168.0.83" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-response" count="65533" proto="tcp" ports="1-21,23-2999,3001-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3000"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ppp" method="table" conf="3"/></port>
+</ports>
+<times srtt="9764" rttvar="10864" to="100000"/>
+</host>
+<runstats><finished time="1761171114" timestr="Wed Oct 22 18:11:54 2025" summary="Nmap done at Wed Oct 22 18:11:54 2025; 1 IP address (1 host up) scanned in 89.45 seconds" elapsed="89.45" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
